@@ -1,0 +1,59 @@
+Clase 06 08 2026
+
+* Manuel Reveco Cabello / Taller ing. de software
+* Correo: mrevecoc@docente.uss.cl
+
+    * Especialidado en proyectos y programacion (20 años de experiencia educando)
+
+** Opinar en clases **
+
+Programa de la asignatura
+
+* Capacidad de determinar factibilidad operativa, legal, economica, etc.
+* Sistemas de informacion:
+    * Capacidad de diagnosticar necesidades de usuarios, clientes y procesos.
+    * Diseñar diseños de soluciones de software viables a problemas de una organizacion.
+    * Generar informaciona partir de recoleccion y analisis de datos.
+    
+Unidad 1:
+    * Aplica metodologías de desarrollo de software para construir sistemas de información.
+
+Unidad 2:
+    * Estimacion de costos.
+    * Utilizar modelos para estimar esfuerzo en el desarrollo de software.
+
+Unidad 3:
+    * Planificacion de proyectos.
+    * Definir programas de actividades para la ejecucion de proyectos de desarrollo de software.
+
+Unidad 4:
+    * Mantenimiento
+    * Elaborar planes de mantenimiento software 
+
+Unidad 4:
+    * Ejercicio profesional y codifo de etica.
+    * Relacionar normas de comportamiento etico con dilemas del desarrollo de sistemas de informacion.
+
+Solemnes:
+    * Solemne 1: 20% 11 septiembre
+    * Solemne 2: 20% 30 de octubvre
+    * Solemne 3: 40% 27 noviembre
+    * Talleres: 20%
+    * Recuperativa: 3 de diciembre
+
+Problema (Ejercicio en clases)
+
+    * 1) Planificacion (Tiempo (Cuanto nos demorariamos)):
+    * 2) Costo (Cuanto cobraria por lo que voy a hacer):
+    
+    * El problema: Se quiere instalar una automotora (Tiene varios vehiculos y los quiere 
+    vender) y quiere hacer un software o programa para poder llevar el control de los 
+    vehiculos, saber a quien los vende, y a quien le puede comprar nuevos vehiculos 
+    (Clientes y proovedores)
+    
+    * ¿Cuanto me voy a demorar?
+        * 1 meses, al no tener conocimiento de aplicaciones para construccion de
+        aplicaciones ecommerce, requiriendo un aprendizade previo a (o durante) la
+        construccion del mismo
+    * ¿Cuanto voy a cobrar?
+        * 400.000

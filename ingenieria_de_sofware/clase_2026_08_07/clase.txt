@@ -1,0 +1,31 @@
+Clase 07 de agosto 2026
+
+Unidad 1:
+    * Que es la ingenieria de software
+    * Para que sirve?
+    * Funciones objetivos de ingenieria de software
+
+Que es la ingenieria de software?
+    * Rama de la ingenierqia asociada al desarrollo de productos software
+        * Desarrollo, mantenible y escalable
+    * Para que sirve?
+        * Para crear software que nos permita que perdure en el tiempo
+        * Segun pasos o procesos para su creacion
+    * En necesario cuando algo debe ser medible en su utilidad
+    * No es necesario o obligatorio para programas pequeños
+    * Nos permite reducir fallos, controlar costor y mejorar la previsibilidad
+    * Nos permite tomar decisiones con objetivos claros
+    * Equilibrar valor para el negocio, UX y viabilidad tecnica (sin improvisar)
+    * Sus funciones:
+        * Diseñar software con factores claros
+        * Coordinar y liderar equipos complejos
+    * Objetivos:
+        * Util en el presente, mantenible en el futuro
+        * Confiabilidad; Mantenibilidad; Escalabilidad; Seguridad;
+        Calidad medible; Entrega predecible.
+        * Siempre tiene un objetivo general (Medible) y objetivos especificos (Paso a paso)
+    * Diferencia con la programacion:
+        * Aplicar la disciplina crea un sistema mas estable y sostenible.
+    * Principios fundamentales:
+        * Se puede mantener independiente del equipo que lo maneje
+        * Documentacion mas rigida (Justa y necesaria)
