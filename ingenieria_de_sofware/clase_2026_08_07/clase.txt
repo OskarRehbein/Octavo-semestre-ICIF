@@ -29,3 +29,20 @@ Que es la ingenieria de software?
     * Principios fundamentales:
         * Se puede mantener independiente del equipo que lo maneje
         * Documentacion mas rigida (Justa y necesaria)
+    * Reutilizacion de codigos y componentes:
+        * Contenido de confianza (Librerias por ejemplo)
+        * Patrones, plantillas y estandares de la industria
+        * Disminuye bugs repetidos
+        * Mantener un catalogo simple de componentes internos (Repositorio)
+    Mantenibilidad y Escalabilidad:
+        * Capacidad de cmabiar el software con seguridad
+        * Ayuda a tener pruebas, modulos pequeños y nombres claros
+        * Puede ser mas usuarios, componentes, funciones, equipos, etc
+        * Lo comun es escalar por partes
+    * Ingenieria de requierimientos
+        * Fase inicial de descubriemiento, analisis, documentacion y gestion
+        * Clasificacion de aspectos funcionales y no funcionales
+        * Validacion y gestion
+            * Negociacion de alcance de proyecto (Depende de la metodologia o ciclo de vida)
+        * Traduccion de los requerimientos:
+            * 

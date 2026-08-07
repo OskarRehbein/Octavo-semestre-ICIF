@@ -1,0 +1,14 @@
+"Crear un programa que permita ingresar 2 numeros enteros y calcule e 
+imprima la suma de ellos"
+
+* Crear diagrama de caso de uso del problema
+
+
+* Respuesta ejercicio
+    * Compatibilidad con el usuario
+    * Se registran los actores (1, el usuario)
+    * Se define el sistema (Cuadro que encierra los casos de uso)
+    * Casos de uso: 
+        * Ver resultado; ingresar Numero
+        * Validacion de dato (Inclusion (ingresar numero include a este))
+        * Sumar (No conecta con usuario)
