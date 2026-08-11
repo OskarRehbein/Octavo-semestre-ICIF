@@ -1,1 +1,35 @@
-texto
+Para los modelos y metodologias de sdlc menadas en la 
+lamina 27, investigue como funciona su ciclo de vida.
+
+Waterfall:
+    * Fase de analisis preeliminar: 
+        * Se hace el analisis, identificando objetivos de la organizacion y 
+        su alcance
+        * Se consideran alternativas
+        * Costo beneficio
+    * Analisis de sistema:
+        * Recoleccion de hechos, entrevistas, documentacion, etc
+        * Pros y contras del sistema actual
+        * Analisis del sistema propuesto, encontrar soluciones a los problemas
+    * Diseño de sistema:
+        * Se especifican las caracteristicas del sistema: Interfaces, reglas de negocio,
+        pseudocodigo, etc.
+    * Desarrollo:
+        * Escritura de codigo.
+    * Integracion y testeo:
+        * Ensamblaje de los modulos, espacion de testeo, encontrar errores (Bugs en el sistema)
+    * Despliegue:
+        * Entregar informacion al sistema y ponerlo en produccion
+    * Mantenimiento:
+        * Se monitorea el sistema y se generan cambio a medida que se necesiten.
+    * Evaluacion:
+        * Se evalua el sistema y el proceso (El sistema mejoro? es usable?)
+    * Deshecho:
+        * Se crean planes para el final de su vida, deshacerlo y planear el remplazo.
+
+Iterativo o incremental:
+    * Cada fase dispone de su propia sub-fase en el tiempo, donde una viene despues de la otra
+        * Creacion:
+            * Identifica el alcance del proyecto, requerimientos, riesgos, etc.
+        * Elaboracion:
+            * Entrega una arquitectura funcional que cumple los requerimientos no funcionales

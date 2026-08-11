@@ -45,4 +45,21 @@ Que es la ingenieria de software?
         * Validacion y gestion
             * Negociacion de alcance de proyecto (Depende de la metodologia o ciclo de vida)
         * Traduccion de los requerimientos:
-            * 
+    * Diagrama caso de uso:
+        * Compatibilidad del usuario con el sistema
+    * Diseño e implementacion
+    * Aseguramiento de la calidad:
+        * Comprueba que el prodcuto cumpla con los estandares de calidad esperados.
+        * Piramide de pruebas
+            * Pruebas unitarias, de integracion y End-to-End
+    * Proceso de documentacion:
+        * Garantiza conocimiento transferible
+        * Documentacion tecnica, de operacion y procesos; y de usuario
+    * Evaluacion de software
+        * Despliegue continuo
+        * Mantenimiento Correctivo, Adaptativo, perfectivo/Evolutivo y de retiro.
+
+Ciclo de vida de desarrollo de software (SDLC)
+    * Todo el proceso de un software, desde su planificacion y su mantencion.
+    * Quiere reducir el riesgo del proyecto
+    * Tiene 7 partes (Similares a las anotadas anteriormente)
