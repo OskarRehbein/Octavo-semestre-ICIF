@@ -1,0 +1,50 @@
+Clase 11 de agosto 2026
+
+Los requerimientos:
+    * Son la base de todo sistema de informacion o proyecto
+    * Vamos a trabajar a un liceo (Liceo Piedra Azul)
+        * Vamos a buscar los requerimientos del liceo
+        * Es un proyecto VCM
+        * 'Recolectar Requerimientos'
+            * Analisis de requerimiento.
+            * ¿Que hace la empresa? ¿Que hace el negocio?
+            * Conocer el funcionamiento de la empresa
+                * Entrevista, Cuestionario, Reunion (Terminos y herramientas de recoleccion)
+                    * ¿Y que debo preguntar? ¿A quien le debo preguntar?
+                    * Metodologias AGILES (Scrum)
+                    * Que metodologia me sirve, y que preguntas debo hacer para generar el maximo de informacion.
+                    * Reconocer los requerimientos de la empresa
+                * Reuniones con el equipo y el usuario.
+            * No hay que reinventar la rueda (Reutilizacion de codigo).
+    * No me sirve entregar una super solucion a un problema basico
+
+
+Metodologias:
+    * Hay que adaptarse a las necesidades del usuario
+    * Vamos a trabajar con niños, el software (Solucion) tiene que ser acorde a sus necesidades
+    ** Obtener el maximo de riqueza de la entrevista.
+        * No podemos depender del cliente para cada pregunta que nos surga en el proceso
+    * Metodologia de desarrollo por prototipo
+        * 'Esto tengo y asi funciona'
+        * Demuestra a lo que queremos llegar, pasando producto por producto, cada uno mas elaborado.
+        * Necesita si o si, permanente reunion con el usuario.
+    * No todos aprenden igual.
+    * La importancia del lenguaje
+        * Ser conciente sobre lo que hablas y a quien te diriges
+        * Ser consecuente en la situacion en la que estas
+
+** Nos piden prototipo, pero queremos llegar a un producto **
+
+Documentacion:
+    * ¿Porque es importante la documentacion?
+        * Informacion para el futuro
+        * Util para futuros developers
+        * Saber que llevamos hecho
+    * En la recoleccion de requerimientos *Hablar con todos*
+        * Cada espacio laboral es un ecosistema en su funcionamiento.
+
+* Investigacion del liceo Piedra Azul.
+
+* Lluvia de ideas (Lo vamos a hacer).
+
+* Que es un Pictograma.
