@@ -1,0 +1,1 @@
+# Laberinto creado a base de Gemini
