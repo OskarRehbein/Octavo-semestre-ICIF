@@ -32,7 +32,7 @@ def _generic_search(maze, start, goal, pop_index):
         if current == goal:
             break
 
-        for neighbor in maze.safeneighbors(current):
+        for neighbor in maze.safe_neighbors(current):
             if neighbor not in reached:
                 reached.add(neighbor)
                 parents[neighbor] = current
