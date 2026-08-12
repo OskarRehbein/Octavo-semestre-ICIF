@@ -2,9 +2,19 @@ from maze_lab.config import WALL, FLOOR, HOLE, EXIT, ROCK
 
 
 class Maze:
-    def __init__(self, grid: list[list[str]], start: tuple[int, int]):
+    def __init__(
+        self,
+        grid: list[list[str]],
+        start: tuple[int, int],
+        exit: tuple[int, int] | None = None,
+    ):
         self.grid = grid
         self.start = start  # Posición inicial del robot (x, y)
+
+        # Posición de la salida. gen.exit_pos ya la calcula el generador,
+        # así que solo la guardamos aquí para que search.py tenga un 'goal'
+        # sin tener que andar escaneando el grid buscando el símbolo 'E'.
+        self.exit = exit
 
         # Un diccionario útil para traducir símbolos a objetos TileInfo
         self.tiles = {
@@ -37,7 +47,11 @@ class Maze:
         return self.is_walkable(position) and not self.tile_at(position).deadly
 
     def safe_neighbors(self, position: tuple[int, int]) -> list[tuple[int, int]]:
-        """Devuelve las posiciones vecinas (arriba, abajo, izquierda, derecha) seguras para caminar."""
+        """
+        Devuelve las posiciones vecinas (arriba, abajo, izquierda, derecha)
+        que son seguras para caminar. Esta es la función que convierte el
+        laberinto en un grafo para que search.py pueda recorrerlo.
+        """
         x, y = position
         candidates = [(x, y - 1), (x, y + 1), (x - 1, y), (x + 1, y)]
         return [pos for pos in candidates if self.is_safe(pos)]
