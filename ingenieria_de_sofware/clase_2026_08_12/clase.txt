@@ -1,0 +1,22 @@
+Requerimientos funcionales:
+    * Lo que pide la empresa
+    * 
+
+Requerimientos no funcionales:
+    * Cosas no directamente relacionadas con el requerimiento pero que son necesarias para funcionar
+    * El negocio cuenta con un computador? usa solo efectivo? posee transbank?
+    * 
+
+Hay que ser capaz de ofrecer solucion tanto por hardware como por software, segun
+los requerisitos que se tenga. Utilizar la herramiento justa para el trabajo.
+
+Software Piedra Azul:
+    * Software que pueda, por ejemplo, ayudar en el momento de aprender a leer a estudiantes
+    con distintas capacidades.
+
+Cuestionario:
+    * Nos vamos a entrevistar con una persona encargada, de formacion parbularia.
+    * 
+
+
+    

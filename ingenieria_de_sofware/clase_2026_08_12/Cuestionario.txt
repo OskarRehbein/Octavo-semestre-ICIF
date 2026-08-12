@@ -1,0 +1,38 @@
+Preguntas:
+
+necesitan software 
+
+Preguntas requerimiento funcionales
+
+    1) ¿Que dificultades han encontrado al momento de enseñar a los niños a aprender a leer?
+    2) ¿De que forma quieren abordar  educativo les gustaria implementar?
+    3) ¿Que problemas de aprendizaje tienen los estudiantes?
+    4) ¿Desean llevar tener un sistema registro de progreso de los estudiantes? (Analisis de rendimiento)
+    5) ¿El software es para estudiantes o funcionarios?
+    6) ¿Necesitan un sistema de usuarios?
+    7) ¿Es una herramienta activa para las clases o es una herramienta de progreso individual?
+    8) ¿Como quieren aprendan los estudiantes?
+    9) Si es que, la aplicacion es para estudiantes ¿Que rango de edad utilizara la aplicacion?
+    10) ¿Necesitan un diseño atractivo o formal?
+    11) ¿El sistema debe adaptarse a los niveles de aprendizaje?
+    12) ¿Necesitan mas de 1 software?
+
+Preguntas requerimiento no funcional
+    3) ¿En que momento o cuando quiere usar el software (Si lo quieres usar en clases o tareas para la casa)?
+     * Participacion en clases o en grupo
+    4) ¿Poseen equipos de trabajos (Tablets, computadores) en el establecimiento (Salas de computacion)? 
+    5) ¿Tienen acceso a internet en todo el establecimiento?
+    6) ¿Los funcionarios estan capacitados en instrumentos tecnologicos?
+    7) ¿
+    8)
+    9)
+    10)
+    11)
+    12)
+    13)
+    14)
+    2)
+    2)
+    2)
+    2)
+    2)
