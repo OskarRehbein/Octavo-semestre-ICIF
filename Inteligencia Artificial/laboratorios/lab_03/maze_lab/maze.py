@@ -35,3 +35,9 @@ class Maze:
     def is_safe(self, position: tuple[int, int]) -> bool:
         """Verifica si se puede caminar y además no es mortal (ej: hoyos)."""
         return self.is_walkable(position) and not self.tile_at(position).deadly
+
+    def safe_neighbors(self, position: tuple[int, int]) -> list[tuple[int, int]]:
+        """Devuelve las posiciones vecinas (arriba, abajo, izquierda, derecha) seguras para caminar."""
+        x, y = position
+        candidates = [(x, y - 1), (x, y + 1), (x - 1, y), (x + 1, y)]
+        return [pos for pos in candidates if self.is_safe(pos)]
