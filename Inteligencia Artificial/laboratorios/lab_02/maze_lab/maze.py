@@ -1,4 +1,4 @@
-from config import WALL, FLOOR, HOLE
+from maze_lab.config import WALL, FLOOR, HOLE, EXIT, ROCK
 
 
 class Maze:
@@ -11,7 +11,8 @@ class Maze:
             WALL.symbol: WALL,
             FLOOR.symbol: FLOOR,
             HOLE.symbol: HOLE,
-            # Aquí agregarás la SALIDA y otros obstáculos luego
+            EXIT.symbol: EXIT,
+            ROCK.symbol: ROCK,
         }
 
     def symbol_at(self, position: tuple[int, int]) -> str:

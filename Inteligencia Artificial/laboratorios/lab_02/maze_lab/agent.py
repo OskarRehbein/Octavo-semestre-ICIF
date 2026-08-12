@@ -47,8 +47,8 @@ class Agent:
             return MoveResult.FELL
 
         # 3. ¿Es la salida? (Asumiendo que definiste EXIT en tu config)
-        # if maze.symbol_at(target) == "E":
-        #     return MoveResult.ESCAPED
+        if maze.symbol_at(target) == "E":
+            return MoveResult.ESCAPED
 
         # 4. Movimiento normal
         return MoveResult.MOVED
