@@ -33,3 +33,10 @@ Iterativo o incremental:
             * Identifica el alcance del proyecto, requerimientos, riesgos, etc.
         * Elaboracion:
             * Entrega una arquitectura funcional que cumple los requerimientos no funcionales
+
+Agil (Scrum/ Kanban)
+    * 
+
+
+En V (V-model)
+    * 

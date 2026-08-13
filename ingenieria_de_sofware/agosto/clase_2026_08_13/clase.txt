@@ -1,0 +1,92 @@
+clase de 13 de agosto 2026
+
+Metodologia por prototipo (Iterativo / incremental):
+    * Se va mejorando por cada iteracion.
+    * Tiene constante contacto con el cliente y es obligatoria.
+    * Es la metodologia que solemos usar, hacemos progreso en cosas especificas y verificamos que funcionen.
+
+Scrum:
+    * Reuniones todas las semanas, cortas (15 minutos) verificando el progreso del equipo
+    * Esta el Scrum Master, que mira el progreso del proyecto y el Product owner se comunica con el cliente
+    * En constante cambio (Metodologia agil)
+    * Tiene un product backload, es una lista de tareas que deben ser desarrolladas.
+
+V-model:
+    * Como el modelo de cascada, pero con una fase de diagnostico (Comprobacion de errores) en cada fase
+
+
+Clase de hoy:
+    * Seleccion de metodologias 
+    * 
+
+Seleccion de metodologia:
+    * Asegurar eficiencia y exito en cada etapa
+        * Es un proyecto pequelo o grande
+        * Es interno o externo
+            * Externo es buscar un problema y se resuelve 'en casa'
+            * Interno es cuando se trata de un problema, por ejemplo, del mismo lugar donde trabajo (Estacionamientos de la U) 
+    * Tipos de proyectos
+        * Pequeños:
+            * Faciles y rapidos de desarrollar
+            * Se suelen usar metodologias agiles
+            * Scrum
+                * Se dividen las tareas en el equipos
+                * El Sprint es el conjunto de tareas que se eligieron para realizar
+                    * Dura entre 1 y 4 semanas
+                    * El Scrum Master se comunica con el product owner
+                    * Se generan reuniones diarias para verificar el progeso de las tareas, resolver dudas y pedir ayuda
+                    * Al final de cada Sprint se genera una reunion con el Product Owner, el cual aprueba o no aprueba el Sprint.
+                    * Si se aprueba, se genera una reunion de retrospectiva
+                        * ¿Que vamos a mejorar para el siguiente Sprint?
+                        * Reunion sin el Product Owner
+                        * Se repite el proceso, viendo que elementos quedaron el Product backload
+        * Grandes:
+            * Mas complicados y a largo plazo
+            * Suelen ser parte de una organizacion
+            * Suelen ser mas modeulares
+            * Externos:
+                * Suelen ser mas estrictos y exigentes con los plazos
+    * Criterios para la seleccion:
+        * Los mas complejos se pueden beneficiar de metodologias mas complejas
+        * Las necesidades del cliente afecta en la desicion de metodologia
+            * Cuando se trabaja con cliente suelen convenir las tecnologias agiles
+                * Adaptables a cambios
+        * Plazos y recursos disponibles:
+            * El cliente siempre quiere el trabajo 'para ayer'
+            * Cuando los plazos son ajustados, se suele beneficiar de metodologias agiles.
+    * Modelos hibridos:
+        * Juntan las agiles y en cascada
+
+Teoria general de sistemas en la inf de software
+    * Permite a los ing entender y gestionar la complejidad.
+    * Es una forma de entender los isstemas complejos
+    * Hay distintas variables del problema que afectan el comportamiento de un sistema.
+        * Requisistos del usuario:
+            * Necesidades y expectativas de los usuarios
+            * Hoy en dia en ing de software, se suelen entregar pruebas visuales (Vistas) para comprender lo que quiere el usuario
+                * Se suelen rescatar varias cualidades de las distintas opciones que se presentan
+                * Se pregunta ¿Ha visto algo similar? o cosas por el estilo
+        * Restricciones tecnicas:
+            * Limitaciones impuestas por las herramientas utilizadas, como hardware o software disponibles
+                * Los computadores pueden no se lo suficientemente potentes para el software
+                * Tiene el cliente las tecnologias necesarias
+        * Factores ambientales:
+            * Regulaciones legales, estandares de la industria
+                * Ejemplo de la ley de regulacion de datos
+                * Ley de derechos de autor
+        * Etc.
+    * Actividades en el tiempo
+    * Comportamiento del sistema
+        * Nos dice como se va a comportar un sistemas segun estimulos internos o Externos
+            * Segun:
+                * Respuesta a entradas
+                * Manejo de errores
+                * Rendimiento
+    * Estructura del sistema
+        * Organizacion y disposicion de los componentes de un sistema y sus relaciones:
+            * Arquitectura de software
+            * Modulos
+            * Interfaces
+
+* Hay que encontrar un proyecto
+    * Puede ser idea propia o de una necesidad externa
