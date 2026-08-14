@@ -1,0 +1,61 @@
+Clase 14 de agosto 2026
+
+Metodologia estructurada (Tradicional o cascada)
+    * Ventajas:
+        * Claridad y estructurada
+        * Documentasion exhaustiva
+        * Control de gestion (Facil seguimiento segun hitos fijos)
+    * Desventajas:
+        * Riesgo acumulado: Errores solo identificables al final de desarrollo
+        * Inflexibilidad: Realizar cambios al proyecto es complejo
+        * Entrega tardia de valor: El cliente solo ve producto al fianl
+    * Cuando utilizarla:
+        *
+
+RAD:
+    * Enfocada en la construccion acelerada de prototipos funcionales para el feedback del cliente
+    * Una complicacion es que el cliente puede pensar que el producto ya esta terminando
+    * Ventaja:
+        * Velocidad de Entrega: Rediccopn significativa del tiempo de desarrollo
+        * Alata satisfaccion de usuario: Usuario participante, validadndo el producto
+        * Flexibilidad: El feedback permite adaptarse de manera oportuna
+    * Desventajas:
+        * Dependencia del usuario: Requiere compromiso continuo
+        * Limitacion de complejidad: No se adapta a sistemas masivos no modulares (Procesos repetitivos de pasos)
+        * Riesgo de codigo no optimo: Se prioriza la velocidad, puede derivar en deficit en la recnica o arquitectura.
+    * Cuando utilizarlo:
+        * Sistema Claridad
+        * Portal de inventario
+RUP:
+    * Marco de trabajo de proceso pesado (Muchas reglas)
+    * Iterativo y disciplinado
+    * Se divide en 4 fases (Cada una es un sub proyecto)
+        * Inicio
+        * Elaboracion
+        * Construccion
+        * Transicion
+    * Ventajas:
+        * Gestion temprana de riesgos: MItiga los riesgos arquitectonicos antes de construir
+        * Robustez y escalabilidad
+        * Reutilizacion
+    * Desventajas:
+        * Burocracia y sobrecarga
+        * Alta curva de aprendizaje
+        * Costo elevado
+    * Cuando se utiliza:
+        * Rediseño del core bancario
+        * Plataformas transaccionales
+AUP:
+    * Version simplificada y ligera de RUP
+    * Mantiene las 4 sub fases
+    * Implementa placticas agiles
+    * Ventajas:
+        * Equilibio entre estructura y agilidad: 
+        * Enfoque en el codigo de valor: 
+        * Sencillez: 
+    * Desventajas:
+        * Requiere disciplina: 
+        * Menor rigida para auditorias: 
+    * Cuando se utiliza
+        * Sistemas medias a grandes con requisitos
+    
