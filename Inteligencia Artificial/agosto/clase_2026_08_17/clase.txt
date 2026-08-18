@@ -1,0 +1,48 @@
+Algoritmo mit-max
+
+Motivacion:
+    *
+
+    1) Al momento de reoganizar las piezas, se tienen que coordinar, no pueden colisionar, por lo que tiene que buscar caminos para una reorganizacion correcta.
+    2) Eligiendo Euristica, dejar en jaque al rey enemigo por ejemplo
+    3) Distancias de movimiento, reglas del juego, tiempo de respuesta, velocidad de movimientos
+
+¿Que es un juego en IA?
+    * Entorno multiagente, se pueden tener intereses comunes o conflictivos
+    * La solucion es una estrategia que indica una accion para cada posible respuesta
+    * Siempre hay restricciones fuertes de tiempo
+
+Ajedrez:
+    * Determinista
+    * Perfecta
+    * Suma cero
+
+Poker:
+    * Estocastico
+    * Imperfecta
+    * Suma cero
+
+Brisca:
+    * Estocastica
+    * Imperfecta
+    * Suma cero
+
+Go:
+    * Determinista
+    * Perfecta
+    * Suma cero
+
+Scrabble:
+    * Estocastico
+    * Imperfecta
+    * Suma cero
+        
+Un juego se puede describir como:
+    * Estados del juego y del entorno
+    * Estado incicial S0
+
+En suma cero:
+    * Queremos maximizar nuestro utilidad
+    * Queremos minimizar la utilidad del resto
+
+Poda alfa-beta
