@@ -213,11 +213,52 @@ class MazeGenerator:
         # Si la cola se vacía y no llegamos a la meta, el camino está bloqueado
         return False
 
+    def _find_farthest_room_center(self, start: tuple[int, int]) -> tuple[int, int]:
+        """
+        Hace un BFS desde 'start' calculando la distancia REAL (en pasos por
+        pasillo, no en línea recta) a cada celda alcanzable, y devuelve el
+        centro de la sala que quedó más lejos.
+
+        Usamos BFS y no distancia euclidiana porque dos salas pueden estar
+        muy cerca en el mapa pero muy lejos en pasos si el pasillo entre
+        ellas da muchas vueltas (o si hay que rodear otras salas).
+        """
+        distances = {start: 0}
+        queue = [start]
+        directions = [(0, -1), (0, 1), (-1, 0), (1, 0)]
+
+        while queue:
+            current_x, current_y = queue.pop(0)
+            current_dist = distances[(current_x, current_y)]
+
+            for dx, dy in directions:
+                nx, ny = current_x + dx, current_y + dy
+
+                if 0 <= ny < self.height and 0 <= nx < self.width:
+                    symbol = self.grid[ny][nx]
+                    if (
+                        symbol in (FLOOR.symbol, EXIT.symbol)
+                        and (nx, ny) not in distances
+                    ):
+                        distances[(nx, ny)] = current_dist + 1
+                        queue.append((nx, ny))
+
+        # De entre los centros de todas las salas, nos quedamos con el que
+        # tenga la distancia más grande. Si por algún motivo un centro no
+        # fue alcanzado (no debería pasar, las salas siempre están
+        # conectadas), le damos -1 para que nunca gane.
+        farthest_room = max(
+            self.rooms,
+            key=lambda room: distances.get(room.center, -1),
+        )
+        return farthest_room.center
+
     def add_obstacles(self, num_obstacles: int = 20):
         """Esparce obstáculos al azar asegurando que el laberinto tenga solución."""
-        # 1. Definimos la entrada (centro de la primera sala) y la salida (centro de la última)
+        # 1. Definimos la entrada (centro de la primera sala) y la salida
+        # (centro de la sala más lejana en pasos reales desde la entrada)
         self.start_pos = self.rooms[0].center
-        self.exit_pos = self.rooms[-1].center
+        self.exit_pos = self._find_farthest_room_center(self.start_pos)
 
         # Colocamos la salida físicamente en el mapa
         self.grid[self.exit_pos[1]][self.exit_pos[0]] = EXIT.symbol

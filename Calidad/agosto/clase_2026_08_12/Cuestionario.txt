@@ -1,8 +1,5 @@
-Preguntas:
 
-necesitan software 
-
-Preguntas requerimiento funcionales
+Preguntas requerimiento funcionales:
 
     1) ¿Que dificultades han encontrado al momento de enseñar a los niños a aprender a leer?
     2) ¿De que forma quieren abordar  educativo les gustaria implementar?
@@ -17,22 +14,9 @@ Preguntas requerimiento funcionales
     11) ¿El sistema debe adaptarse a los niveles de aprendizaje?
     12) ¿Necesitan mas de 1 software?
 
-Preguntas requerimiento no funcional
-    3) ¿En que momento o cuando quiere usar el software (Si lo quieres usar en clases o tareas para la casa)?
-     * Participacion en clases o en grupo
-    4) ¿Poseen equipos de trabajos (Tablets, computadores) en el establecimiento (Salas de computacion)? 
-    5) ¿Tienen acceso a internet en todo el establecimiento?
-    6) ¿Los funcionarios estan capacitados en instrumentos tecnologicos?
-    7) ¿
-    8)
-    9)
-    10)
-    11)
-    12)
-    13)
-    14)
-    2)
-    2)
-    2)
-    2)
-    2)
+Preguntas requerimiento no funcional:
+
+    1) ¿En que momento o cuando quiere usar el software (Si lo quieres usar en clases o tareas para la casa)?* Participacion en clases o en grupo
+    2) ¿Poseen equipos de trabajos (Tablets, computadores) en el establecimiento (Salas de computacion)? 
+    3) ¿Tienen acceso a internet en todo el establecimiento?
+    4) ¿Los funcionarios estan capacitados en instrumentos tecnologicos?
