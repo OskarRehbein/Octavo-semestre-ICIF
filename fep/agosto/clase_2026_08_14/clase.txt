@@ -1,0 +1,23 @@
+Clase 14 de agosto 2026
+
+Siempre (a menos que se diga lo contrario) usar devaluacion segun vida util y valor libro
+
+* El terreno no se deprecia
+* Cuando se arman los pasivos y activos, lo que va 'mas arriba' es la plata que posee la mayor liquides o facilidad de convertir en liquidez
+    * Ej: Dinero en banco (Efectivo y equivalente a efectivo)
+        * Los equivalentes son dinero pendiente o ahorros con una efectividad de almenos 90 dias
+
+* Pasivos corrientes:
+    * Deudas activas de la empresa que sdeben ser pagadas en 1 año
+    * Si la deuda es menor a 1 año, entonces es un pasivo corriente
+* Activos son recursos, pasivos son deudas
+
+Capital de trabajo:
+    * Activo corriente menos Pasivo corriente 
+        * Solo en terminos contables
+    * Son los recursos que provee la empresa para trabajar (Funcionar los primeros meses)
+        * El negocio lo mas probable no podra solventar los gastos de empresa, pues las ventas aun no son lo suficientemente altas
+        * Son necesarios pues sin el pago de gastos, la empresa no puede seguir
+        * Si bien se proivisionan al inicio, la empresa deberia ser capaz a futuro de cubrir estos gastos
+        * Estos gastos 'Personales' se mantienen en el equilibrio cuando se empieza a generar ganancias (No se pierde ni se gana)
+        
